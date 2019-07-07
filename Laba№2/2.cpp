@@ -8,8 +8,8 @@ void main()
 {
 	setlocale(LC_ALL, "Russian");
 	double xnach = -1.0, xkon = 1.0, dx = 0.01, eps = 0.001;
-	printf("Табулирование функции в виде таблицы:\n");
-	printf("x\t\tF(x)\t\tКоличество\n");
+	printf("РўР°Р±СѓР»РёСЂРѕРІР°РЅРёРµ С„СѓРЅРєС†РёРё РІ РІРёРґРµ С‚Р°Р±Р»РёС†С‹:\n");
+	printf("x\t\tF(x)\t\tДГ®Г«ДЌГ·ДєЕ„Е€ГўГ®\n");
 	while (xnach <= xkon)
 	{
 		int Kolvo = 1, a = 2, b = 2, c = 3, d = 5;
